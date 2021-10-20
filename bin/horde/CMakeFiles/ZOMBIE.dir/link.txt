@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/ZOMBIE.dir/main.cpp.o  -o ZOMBIE ../include/libinclude.a 
