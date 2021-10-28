@@ -57,9 +57,20 @@ void testPointers3()
 
 }
 
+void testPointers4(int* num)
+{
+	std::cout << *num << std::endl;
+
+	*num = *num << 1;
+
+	std::cout << *num << std::endl;
+}
+
 
 int main(int argc, char const *argv[])
 {
-	testPointers3();
+
+	int number = 16;
+	testPointers4(&number);
 	return 0;
 }
