@@ -1,8 +1,9 @@
 #include <iostream>
-#include "hello.hpp"
+#include <hello/hello.hpp>
 
-void hello::say_hello(){
+float zombieVersion(float zombieVersion)
+{
 
-	std::cout << "EAT BRAINS INSIDE src" << std::endl;
+	return zombieVersion;
 
 }

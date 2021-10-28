@@ -1,10 +1,9 @@
-#ifndef HELLO_WORLD
-#define HELLO_WORLD
+#pragma once
 
-namespace hello{
+// namespace hello{
 
-void say_hello();
+// int zombieVersion(int zombieVersion);
 
-}
+// }
 
-#endif
+float zombieVersion(float zombieVersion);
