@@ -70,6 +70,6 @@ int main(int argc, char const *argv[])
 {
 
 	int number = 16;
-	// testPointers4(&number);
+	testPointers2();
 	return 0;
 }
