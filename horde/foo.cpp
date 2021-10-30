@@ -1,11 +1,6 @@
 #include <iostream>
 #include <foo.hpp>
 
-Foo::Foo()
-{
-	fuck = 3;
-}
-
 int Foo::getFuck()
 {
 	return fuck;

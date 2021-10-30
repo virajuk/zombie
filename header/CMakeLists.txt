@@ -3,7 +3,6 @@ add_library(
 	src/zombie.hpp
 	src/foo.hpp
 	src/zombie.cpp
-	src/foo.cpp
 )
 
 target_include_directories(header PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")

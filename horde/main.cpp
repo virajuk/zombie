@@ -14,7 +14,6 @@ void testPointers()
 
 }
 
-
 void testPointers2()
 {
 
@@ -37,40 +36,40 @@ void testPointers2()
 
 }
 
-void testPointers3()
-{
+// void testPointers3()
+// {
 
-	Foo foo;
-	int *ptr;
+// 	Foo foo;
+// 	int *ptr;
 
-	ptr = (int*) &foo;
+// 	ptr = (int*) &foo;
 
-	*ptr = 8;
+// 	*ptr = 8;
 
-	ptr++;
+// 	ptr++;
 
-	*ptr = 90;
+// 	*ptr = 90;
 
-	std::cout << foo.getFuck() << std::endl;
+// 	std::cout << foo.getFuck() << std::endl;
 
-	foo.readTest();
+// 	foo.readTest();
 
-}
+// }
 
-void testPointers4(int* num)
-{
-	std::cout << *num << std::endl;
+// void testPointers4(int* num)
+// {
+// 	std::cout << *num << std::endl;
 
-	*num = *num << 1;
+// 	*num = *num << 1;
 
-	std::cout << *num << std::endl;
-}
+// 	std::cout << *num << std::endl;
+// }
 
 
 int main(int argc, char const *argv[])
 {
 
 	int number = 16;
-	testPointers4(&number);
+	// testPointers4(&number);
 	return 0;
 }
